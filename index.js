@@ -23,6 +23,10 @@ client.once("ready", () => {
     type: 1 // PLAYING
   });
 });
+
+const oblivionRegister = require("./oblivionRegister");
+oblivionRegister(client);
 client.login(process.env.TOKEN);
+
 
 
