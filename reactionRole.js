@@ -2,7 +2,7 @@ module.exports = (client) => {
 
   // 🔧 AYARLAR
   const MESSAGE_ID = "1453358985569894400";
-  const EMOJI = ":oblvon:";
+  const EMOJI = "oblvon";
   const GIVE_ROLE_ID = "1452814296491884616";
   const REMOVE_ROLE_ID = "1452816860029390969";
 
@@ -26,3 +26,4 @@ module.exports = (client) => {
   });
 
 };
+
