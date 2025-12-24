@@ -19,9 +19,10 @@ reactionRole(client);
 client.once("ready", () => {
   console.log(`Bot açıldı: ${client.user.tag}`);
 
-  client.user.setActivity("Nullborns have no mercy.", {
+  client.user.setActivity("OBLIVION NEVER SLEEPS.", {
     type: 1 // PLAYING
   });
 });
 client.login(process.env.TOKEN);
+
 
